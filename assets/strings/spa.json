@@ -11,22 +11,7 @@
             "spa"
         ],
         "completion": " 74%  27.06%",
-        "missing": [
-            "Contact_Para",
-            "Documentation_Para",
-            "Downloads_Para",
-            "Drop_Document",
-            "Install_Apertium",
-            "Install_Apertium_Para",
-            "Morphological_Analysis_Help",
-            "Morphological_Generation_Help",
-            "Multi_Step_Translation",
-            "Supported_Formats",
-            "Translate_Webpage",
-            "Translation_Help",
-            "What_Is_Apertium",
-            "description"
-        ]
+        "missing": []
     },
     "title": "Apertium | Una plataforma libre para la traducción automática",
     "tagline": "Plataforma libre para la traducción automática",
@@ -64,5 +49,19 @@
     "Contact": "Contactar",
     "Documentation": "Documentación",
     "About_Apertium": "Acerca de Apertium",
-    "Apertium_Downloads": "Descargas de Apertium"
+    "Apertium_Downloads": "Descargas de Apertium",
+    "description": "Apertium es una plataforma de traducción automática basada en reglas. Es software libre y se publica bajo los términos de la Licencia Pública General de GNU.",
+    "Downloads_Para": "Las versiones actuales de <b> Apertium toolbox </b>, así como de <b> datos de pares de idiomas </b> están disponibles en <a href = 'https://github.com/apertium' target = '_ blank 'rel =' noopener '> la página de GitHub </a>. Las instrucciones de instalación para Apertium en todas las plataformas principales se proporcionan en la <a href='http://wiki.apertium.org/wiki/Installation' target='_blank' rel='noopener'> Página de instalación de Wiki </a>.",
+    "Morphological_Generation_Help": "Ingrese las formas morfológicas que le gustaría generar en el texto.",
+    "Morphological_Analysis_Help": "Ingrese el texto para el análisis morfológico.",
+    "Contact_Para": "<h4> Canal IRC </h4> <p> La forma más rápida de contactarnos es uniéndose a nuestro <a href = 'http://wiki.apertium.org/wiki/IRC' target = '_ blank' rel = 'noopener '> <abbr title =' Internet Relay Chat '> IRC </abbr> canal, #apertium </a> en irc.freenode.net, donde se encuentran los usuarios y desarrolladores de Apertium. No necesita un cliente IRC; puede usar <a href='http://webchat.freenode.net/?channels=apertium'> freenode webchat </a>. </p> <h4> Lista de correo </h4> <p> Además, suscríbase a <a href = 'https://lists.sourceforge.net/lists/listinfo/apertium-stuff' target = '_ blank' rel = 'noopener'> lista de correo de apertium-stuff </a>, donde puede publicar propuestas o problemas más largos, así como seguir las discusiones generales de Apertium. </p> <h4> Contacto </h4> <p> No dude en contactarnos a través del <a href='mailto:apertium-contact@lists.sourceforge.net' target='_blank' rel='noopener'> lista de correo de contacto de apertium </a> si encuentra un error, hay un proyecto en el que le gustaría vernos trabajar, o le gustaría ayudar. </p>",
+    "Install_Apertium_Para": "¿Estás experimentando respuestas lentas? Nuestros servidores pueden estar sobrecargados. Aprenda cómo <a href='http://wiki.apertium.org/wiki/Installation' target='_blank' rel='noopener'> instalar Apertium localmente </a>.",
+    "Translate_Webpage": "Traducir una página web",
+    "What_Is_Apertium": "<p> Apertium es una <b> plataforma de traducción automática gratuita / de código abierto </b>, inicialmente destinada a pares de idiomas relacionados, pero se amplió para tratar con pares de idiomas más divergentes (como inglés-catalán). La plataforma proporciona </p> <ol> <li> un motor de traducción automática independiente del idioma </li> <li> herramientas para administrar los datos lingüísticos necesarios para construir un sistema de traducción automática para un par de idiomas dado y </li> <li> datos lingüísticos para un número creciente de pares de idiomas. </li> </ol> <p> Apertium le da la bienvenida a los nuevos desarrolladores: si cree que puede mejorar el motor o las herramientas, o desarrollar datos lingüísticos para nosotros, no lo haga. dude en <a data-toggle='modal' data-target='#contactModal' data-text='Help_Improve' data-keyboard='true' data-dismiss='modal' style='cursor: pointer'> contáctenos </a>. </p>",
+    "Translation_Help": "Ingrese texto o URL para traducir.",
+    "Multi_Step_Translation": "<a href='https://en.wikipedia.org/wiki/Pivot_language' target='_blank' rel='noopener'> Traducción de varios pasos </a> (experimental)",
+    "Drop_Document": "Soltar un documento",
+    "Documentation_Para": "Se puede encontrar documentación en nuestro <a href='http://wiki.apertium.org/'> Wiki </a> bajo el objetivo <a href = 'http://wiki.apertium.org/wiki/Documentation' = '_ blank' rel = 'noopener'> Subpágina de documentación </a>. Hemos publicado varios documentos de conferencias y artículos de revistas, una lista de los cuales se puede encontrar en la Wiki en <a href = 'http://wiki.apertium.org/wiki/Publications' target = '_ blank' rel = 'noopener' > Publicaciones </a>.",
+    "Install_Apertium": "Instalar Apertium",
+    "Supported_Formats": "Formatos admitidos: .txt, .rtf, .odp, .ods, .odt (LibreOffice / OpenOffice), .xlsx, .pptx, .docx (Microsoft Office 2003 y más reciente). <br/> <i> Los archivos .doc y pdf de Word 97 no son compatibles. </i>"
 }
