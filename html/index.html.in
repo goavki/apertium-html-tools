@@ -106,7 +106,7 @@
                                 <a href="#translation" data-mode="translation" data-text="Translation" class="nav-link" data-toggle="tab" style="display: none;">Translation</a>
                             </li>
                             <li class="nav-item p-1">
-                                <a href="#analyzation" data-mode="analyzation" data-text="Morphological_Analysis" class="nav-link" data-toggle="tab" style="display: none;">
+                                <a href="#analysis" data-mode="analysis" data-text="Morphological_Analysis" class="nav-link" data-toggle="tab" style="display: none;">
                                     Morphological analysis</a>
                             </li>
                             <li class="nav-item p-1">
@@ -298,7 +298,7 @@
                             </fieldset>
                         </form>
                     </div>
-                    <div class="modeContainer tab-pane fade" id="analyzation">
+                    <div class="modeContainer tab-pane fade" id="analysis">
                         <h2 class="d-block d-md-none" data-text="Morphological_Analysis">Morphological analysis</h2>
                         <form role="form" id="analysisForm">
                             <fieldset>

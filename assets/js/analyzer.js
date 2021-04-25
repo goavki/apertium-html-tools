@@ -9,7 +9,7 @@ var currentAnalyzerRequest;
     cache, getLangByCode, filterLangPairList, allowedLang, sendEvent, callApy, apyRequestTimeout, removeSoftHyphens */
 /* global ENTER_KEY_CODE */
 
-if(modeEnabled('analyzation')) {
+if(modeEnabled('analysis')) {
     $(document).ready(function () {
         $('#analysisForm').submit(function () {
             analyze();

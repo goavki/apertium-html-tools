@@ -9,7 +9,7 @@ APY_URL = https://www.apertium.org/apy
 ALLOWED_LANGS =
 ALLOWED_VARIANTS = BR, aran, valencia
 
-# Available modes are currently 'translation', 'analyzation', 'generation', 'sandbox'
+# Available modes are currently 'translation', 'analysis', 'generation', 'sandbox'
 ENABLED_MODES = translation
 DEFAULT_MODE = translation
 

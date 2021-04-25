@@ -53,7 +53,7 @@ $(document).ready(function () {
         iso639CodesInverse[language] = code;
     });
 
-    var possibleItems = {'translation': getPairs, 'generation': getGenerators, 'analyzation': getAnalyzers};
+    var possibleItems = {'translation': getPairs, 'generation': getGenerators, 'analysis': getAnalyzers};
     var deferredItems = [getLocale(), getLocales()];
     if(config.ENABLED_MODES) {
         $.each(config.ENABLED_MODES, function () {
@@ -308,7 +308,7 @@ function localizeLanguageNames(localizedNamesFromJSON) {
         if(modeEnabled('generation')) {
             populateGeneratorList(generatorData);
         }
-        if(modeEnabled('analyzation')) {
+        if(modeEnabled('analysis')) {
             populateAnalyzerList(analyzerData);
         }
     }

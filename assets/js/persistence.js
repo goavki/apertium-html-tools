@@ -12,7 +12,7 @@ var URL_PARAM_Q_LIMIT = 1300,
     HASH_URL_MAP = {
         '#translation': 'q',
         '#webpageTranslation': 'qP',
-        '#analyzation': 'qA',
+        '#analysis': 'qA',
         '#generation': 'qG',
         '#sandbox': 'qS',
     };
@@ -150,7 +150,7 @@ function persistChoices(mode /*: string */, updatePermalink /*: ?boolean */) {
             urlParams.push('dir=' + encodeURIComponent(curSrcLang + '-' + curDstLang));
             qVal = $('#webpage').val();
         }
-        else if(hash === '#analyzation' && $('#secondaryAnalyzerMode').val()) {
+        else if(hash === '#analysis' && $('#secondaryAnalyzerMode').val()) {
             urlParams = [];
             urlParams.push('choice=' + encodeURIComponent($('#secondaryAnalyzerMode').val()));
             qVal = $('#morphAnalyzerInput').val();
